@@ -9,7 +9,9 @@
 #   ./install.sh dir <path>        # any agent: copy into <path>/codex-security
 set -eu
 
-here="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+# Empty CDPATH so a user's exported CDPATH can't hijack the cd below.
+CDPATH=''
+here="$(cd -- "$(dirname -- "$0")" && pwd)"
 src="$here/skills/codex-security"
 
 usage() {
