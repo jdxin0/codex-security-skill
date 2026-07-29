@@ -1,5 +1,7 @@
 # codex-security skill
 
+[![validate](https://github.com/jdxin0/codex-security-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/jdxin0/codex-security-skill/actions/workflows/validate.yml)
+
 A portable [Agent Skill](https://agentskills.io) that teaches any coding
 agent to run structured security scans **using its own model** — no ChatGPT
 sign-in, no API key, no external CLI, no extra cost. The methodology
@@ -94,6 +96,11 @@ this repository does not vendor that code.
 | `./install.sh codex` | `~/.codex/skills/` |
 | `./install.sh pi` | `~/.pi/agent/skills/` |
 | `./install.sh dir <path>` | `<path>/codex-security` |
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Run `python3 scripts/validate.py`
+before opening a PR; CI runs the same checks.
 
 ## License
 
