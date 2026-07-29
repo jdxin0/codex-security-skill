@@ -1,0 +1,8 @@
+{
+  "name": "codex-security",
+  "description": "AI-powered security scanning via the @openai/codex-security CLI: repo/PR/working-tree scans, finding validation and patching, SARIF export, CI gating.",
+  "version": "0.1.0",
+  "author": {
+    "name": "openfyde"
+  }
+}

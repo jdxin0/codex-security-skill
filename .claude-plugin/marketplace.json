@@ -1,0 +1,13 @@
+{
+  "name": "codex-security-skill",
+  "owner": {
+    "name": "openfyde"
+  },
+  "plugins": [
+    {
+      "name": "codex-security",
+      "source": "./",
+      "description": "AI-powered security scanning via the @openai/codex-security CLI: repo/PR/working-tree scans, finding validation and patching, SARIF export, CI gating."
+    }
+  ]
+}

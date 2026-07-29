@@ -1,0 +1,12 @@
+# Upstream OpenAI checkout — methodology source only, not vendored.
+# Leading slash anchors this to the repo root so it does NOT match
+# skills/codex-security/. See https://github.com/openai/codex-security
+/codex-security/
+
+# Installed copies of the skill (produced by install.sh)
+/.claude/
+.codex-security/
+
+# OS / editor cruft
+.DS_Store
+*.swp
