@@ -10,7 +10,7 @@ description: >-
   codex-security scanner, executed directly by the agent.
 license: MIT
 metadata:
-  author: openfyde
+  author: jdxin0
   methodology-upstream: https://github.com/openai/codex-security
 ---
 
